@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="panel1" layout-manager="CardLayout" hgap="0" vgap="0" show="44255">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="44255" binding="card1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <name value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fff51" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Button 1"/>
+            </properties>
+          </component>
+          <component id="75fa7" class="javax.swing.JLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Page 1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b8d91" binding="card2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties>
+          <name value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="590ba" class="javax.swing.JButton" binding="button2" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Button 2"/>
+            </properties>
+          </component>
+          <component id="17f4b" class="javax.swing.JLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Page 2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
